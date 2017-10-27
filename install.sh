@@ -104,4 +104,12 @@ for path in * ; do
     esac
 done
 
+
+note "Installing apps..."
+
+cd $basedir
+cat ./brew | xargs brew install $@
+cat ./cask | xargs brew cask install $@
+cat ./mas | awk '{print $1}' | xargs mas install $@
+
 note "Done."
