@@ -1,2 +1,10 @@
 .pyc
 .DS_STORE
+
+# Deliveroo #
+
+.env.development
+.env.local
+.env.*.local
+*.vagrant
+supported_sites.yml
