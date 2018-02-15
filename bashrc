@@ -54,7 +54,7 @@ export FZF_DEFAULT_COMMAND='
 # Go #
 
 export GOPATH=$HOME/go
-export PATH=$PATH:~/bin:/usr/local/go/bin;
+export PATH=$PATH:~/bin:/usr/local/go/bin:$HOME/go/bin;
 
 # Git #
 
